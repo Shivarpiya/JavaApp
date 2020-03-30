@@ -30,3 +30,5 @@ artifacts:
     files: 
       - imagedefinitions.json
       - appspec.yml
+      - docker-compose.yaml
+      - copy.sh
