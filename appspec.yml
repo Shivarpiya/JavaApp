@@ -1,0 +1,12 @@
+version: 0.0
+os: linux
+files:
+  - source: /docker-compose.yaml
+    destination: /root/
+    owner: root
+    
+hooks:
+  ApplicationStart:
+    - location: copy.sh
+      runas: root
+      timeout: 180
