@@ -5,4 +5,4 @@ rm -rf copy.txt
 fi
 ls -la
 #chmod 756 anchore.sh
-./test2.sh
+./test2.sh > /root/anchore.log
